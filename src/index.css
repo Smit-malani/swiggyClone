@@ -1,0 +1,45 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+*{
+    box-sizing: border-box;
+}
+
+.filterBtn{
+    border: 1px solid #DFDFE0;
+    padding: 5PX 10px;
+    font-weight: 500;
+    font-size:14px;
+    color: #414449;
+    border-radius: 20px;
+    box-shadow: 3px 3px rgb(252, 252, 252);
+}
+
+.active{
+    background-color: #3e4152;
+    color: white; 
+    border: 1px solid black;
+}
+
+.loader {
+    width: 48px;
+    height: 48px;
+    border: 5px solid #FFF;
+    border-bottom-color: transparent;
+    border-radius: 50%;
+    display: inline-block;
+    box-sizing: border-box;
+    animation: rotation 1s linear infinite;
+    padding: 30px;
+    }
+
+    @keyframes rotation {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+    } 
+
