@@ -59,8 +59,7 @@ function RestorentMenu(){
     
     return (
         <div className="w-full">
-            {
-                menuData.length ? (<div className="pt-7 w-[800px] mx-auto">
+            <div className="pt-7 w-[800px] mx-auto">
                     <p className="text-[0.6rem] text-gray-500 ">
                       <Link to={"/"}>
                       <span className="hover:text-gray-700 hover:cursor-pointer">Home /</span>
@@ -184,9 +183,7 @@ function RestorentMenu(){
       
                       }
                     </div>
-                 </div>) : <MenuShimer/>
-            }
-
+                 </div>
            
         </div>
     )
